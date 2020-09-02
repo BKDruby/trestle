@@ -46,7 +46,7 @@ init(function (root) {
   $(root).find('input[type="date"][data-picker="true"]').flatpickr({
     allowInput: true,
     altInput: true,
-    altFormat: i18n['admin.datepicker.formats.date'] || 'm/d/Y',
+    altFormat: i18n['admin.datepicker.formats.date'] || 'd/m/Y',
     onReady: setupDatePicker
   })
 
